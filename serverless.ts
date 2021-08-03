@@ -4,7 +4,7 @@ import type { AWS } from "@serverless/typescript";
 import functions from "./resources/functions";
 
 const serverlessConfiguration: AWS = {
-  service: "demolab-back",
+  service: "backend",
   frameworkVersion: "2",
   useDotenv: true,
   custom: {
@@ -55,7 +55,7 @@ const serverlessConfiguration: AWS = {
     region: "us-east-1",
     runtime: "nodejs14.x",
     iam: {
-      role: "arn:aws:iam::341681825452:role/demolab-back-dev-us-east-1-lambdaRole"
+      role: ""
     },
     apiGateway: {
       minimumCompressionSize: 1024,
