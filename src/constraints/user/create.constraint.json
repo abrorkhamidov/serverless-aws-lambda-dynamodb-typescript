@@ -1,0 +1,26 @@
+{
+  "email": {
+    "presence": {
+      "allowEmpty": false
+    },
+    "type": "string"
+  },
+  "firstName": {
+    "presence": {
+      "allowEmpty": false
+    },
+    "type": "string"
+  },
+  "lastName": {
+    "presence": {
+      "allowEmpty": false
+    },
+    "type": "string"
+  },
+  "role": {
+    "presence": {
+      "allowEmpty": false
+    },
+    "type": "string"
+  }
+}

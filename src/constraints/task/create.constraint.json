@@ -1,0 +1,35 @@
+{
+  "user.user_id": {
+    "type": "string"
+  },
+  "user.email": {
+    "type": "string"
+  },
+  "user.firstName": {
+    "type": "string"
+  },
+  "user.lastName": {
+    "type": "string"
+  },
+  "user.role": {
+    "type": "string"
+  },
+  "name": { 
+    "presence": {
+      "allowEmpty": false
+    },
+    "type": "string"
+  },
+  "isCompleted": {
+     "presence": {
+      "allowEmpty": false
+    },
+    "type": "boolean"
+  },
+  "description": {
+     "presence": {
+      "allowEmpty": false
+    },
+    "type": "string"
+  }
+}

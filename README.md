@@ -1,2 +1,1 @@
-# serverless-aws-lambda-dynamodb-typescript
-REST API using Serverless framework (AWS Lambda, DynamoDB, NodeJS/TypeScript)
+Implementation of REST API using Serverless framework AWS Lambda, DynamoDB, Typescript

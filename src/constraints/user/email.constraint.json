@@ -1,0 +1,8 @@
+{
+  "userEmail": {
+    "presence": {
+      "allowEmpty": false
+    },
+    "type": "string"
+  }
+}
